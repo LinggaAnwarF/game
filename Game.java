@@ -13,8 +13,8 @@ public class Game {
         int  r1= random.nextInt(90) + 1;
         int  r2= random.nextInt(90) + 1;
         
-        petani.e="Alucard ";
-        petani.name = "Jeki ";
+        petani.e="Jeki ";
+        petani.name = "Slamet ";
         petani.HealtPointe = r2;
         petani.ATKe = r1;
         petani.DEFe = r;
@@ -35,7 +35,7 @@ public class Game {
         System.out.println("----------------------------");
         petani.run();
         if(petani.isDeade()){
-            System.out.println("YOU KILL THE GOBLIN NICE");
+            System.out.println("YOU KILL THE JEKI NICE");
             System.exit(0);
             }
         else{
